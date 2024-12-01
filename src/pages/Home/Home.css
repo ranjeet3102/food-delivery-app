@@ -1,0 +1,7 @@
+.bo{
+    min-height:100vh;
+    background-image:url('https://png.pngtree.com/background/20230613/original/pngtree-variety-of-indian-food-in-front-of-a-dark-wooden-table-picture-image_3419900.jpg') ;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+}

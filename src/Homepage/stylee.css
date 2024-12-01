@@ -1,0 +1,43 @@
+
+.popular-dishes {
+  padding: 20px;
+}
+
+.category-list,   
+.dishes-list {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap if there's not enough space */
+  justify-content: space-around; /* Distributes items evenly */
+  
+}
+
+.category-item,
+.dish-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  flex-basis: 20%; /* Adjusts the width of the items */
+  box-shadow: 0 5px 9px rgb(253, 252, 252);
+  backdrop-filter: blur(3px);
+
+}
+
+.category-image,
+.dish-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+ border-radius: 50px;
+}
+.text{
+  font-size: 60px;
+  color: antiquewhite;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
